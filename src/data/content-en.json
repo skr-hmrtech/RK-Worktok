@@ -1,0 +1,661 @@
+{
+  "common": {
+    "no_options": "No options available"
+  },
+  "header": {
+    "logoText": "WorkTok",
+    "logoSubtext": "Iraqi House Services",
+    "navigation": {
+      "home": "Home",
+      "categories": "Categories",
+      "jobs": "Jobs",
+      "providers": "Providers",
+      "about": "About Us",
+      "contact": "Contact Us"
+    },
+    "actions": {
+      "login": "Log In",
+      "signup": "Sign Up"
+    },
+    "language": {
+      "current": "English",
+      "options": [
+        {
+          "code": "en",
+          "label": "English"
+        },
+        {
+          "code": "ar",
+          "label": "العربية"
+        }
+      ]
+    }
+  },
+  "hero": {
+    "title": "Find Top-Rated Iraqi Property & Professional Services with Just One Click",
+    "subtitle": "Our platform connects you with verified Iraqi professionals for all your property and service needs. Experience seamless booking, guaranteed quality, and exceptional customer service - all in one convenient place.",
+    "tagline": "With WorkTok, Life Becomes Easier",
+    "cta": "Get Started",
+    "searchPlaceholder": "Plumbing, Electrical, Cleaning...",
+    "cityPlaceholder": "Select city",
+    "serviceLabel": "What service do you need?",
+    "cityLabel": "City",
+    "typingTexts": [
+      "TRANSPARENCY",
+      "RELIABILITY",
+      "EXCELLENCE",
+      "QUALITY ASSURED",
+      "TRUSTED PROFESSIONALS"
+    ],
+    "verified_professionals": "Verified Professionals",
+    "quick_response": "Quick Response",
+    "quality_assured": "Quality Assured",
+    "form": {
+      "title": "Find Your Service",
+      "subTitle": "What do you need help with today?",
+      "service_type": "Service Type",
+      "service_search": "What service do you need?",
+      "location": "Location",
+      "location_search": "Select your city",
+      "search_service": "Search Services"
+    }
+  },
+  "whoWeAre": {
+    "title": "Who We Are",
+    "subtitle": "Your One-Stop App for Home & Property Repairs, Maintenance, and Professional Services",
+    "description": "WorkTok revolutionizes home and professional service bookings, offering a streamlined solution to connect you with top-rated local providers through two user-friendly apps. Supported by excellent customer service, WorkTok ensures a seamless experience, removing the hassle from finding reliable services.",
+    "additionalText": "Join WorkTok for stress-free access to all your service needs with just a tap, and enjoy high-quality, quick solutions while supporting local talent in Iraq. Welcome to effortless living with WorkTok, where convenience and quality meet."
+  },
+  "stats": {
+    "title": "A leading home repairs and professional services application in Iraq",
+    "metrics": [
+      {
+        "value": "15,000+",
+        "label": "Customer count"
+      },
+      {
+        "value": "2,500+",
+        "label": "Service Providers"
+      },
+      {
+        "value": "50+",
+        "label": "Team members"
+      },
+      {
+        "value": "40+",
+        "label": "Various Job Categories"
+      }
+    ],
+    "verified_professionals": "Verified Professionals",
+    "service_completed": "Services Completed",
+    "average_rating": "Average Rating",
+    "cities_covered": "Cities Covered"
+  },
+  "popularServices": {
+    "title": "Popular Services",
+    "subTitle": "Professional services delivered right to your door",
+    "experts": "Experts",
+    "view_all": "View All Services"
+  },
+  "topProviders": {
+    "title": "Top-Rated Professionals",
+    "subtitle": "Meet our most trusted and experienced service providers",
+    "verified": "Verified",
+    "contact": "Contact",
+    "view": "View",
+    "view_all": "View All Professionals"
+  },
+  "services": {
+    "title_1": "Most Popular Home, Repair, and Professional Services Nearby",
+    "title_2": "Service Providers",
+    "subtitle_1": "Choose from our wide range of professional services",
+    "subtitle_2": "Find the perfect professional for your needs",
+    "main_title": "Choose a Service Category",
+    "search_and_filter": "Search & Filter",
+    "search_placeholder": "Search services or providers...",
+    "all_categories": "All Categories",
+    "all_cities": "All Cities",
+    "search_button": "Search",
+    "browse_categories": "Browse All Categories",
+    "view": "View",
+    "in": "In",
+    "provider": "Provider",
+    "found": "Found",
+    "no_provider_found": "No Providers Found",
+    "no_provider_description": "We couldn't find any providers matching your criteria. Try adjusting your filters.",
+    "callAction": {
+      "title": "Need Help Choosing?",
+      "description": "Our team can help you find the perfect service provider for your specific needs.",
+      "action": "Get Personalized Recommendations"
+    }
+  },
+  "provider": {
+    "title": "Service Providers",
+    "subTitle": "Browse our network of verified professionals across Iraq",
+    "search": "Search Providers",
+    "search_placeholder": "Provider name or service...",
+    "service_category": "Service Category",
+    "location": "Location",
+    "all_services": "All Services",
+    "all_cities": "All Cities",
+    "provider": "Provider",
+    "available": "Available",
+    "no_provider_found": "No Providers Found",
+    "no_provider_description": "Try adjusting your search criteria or browse different service categories.",
+    "load_more": "Load More"
+  },
+  "whyChoose": {
+    "title": "Why Choose Our Platform?",
+    "subTitle": "We make finding reliable services simple, safe, and convenient",
+    "features": [
+      {
+        "icon": "Shield",
+        "title": "Verified Professionals",
+        "description": "All service providers are thoroughly vetted and verified for your peace of mind.",
+        "delay": 0
+      },
+      {
+        "icon": "Clock",
+        "title": "Quick Response",
+        "description": "Get instant quotes and fast service delivery when you need it most.",
+        "delay": 150
+      },
+      {
+        "icon": "Award",
+        "title": "Quality Guarantee",
+        "description": "We ensure high-quality service delivery with our satisfaction guarantee.",
+        "delay": 300
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Your Innovative Platform That Connects You With Skilled Professionals In Your Area",
+    "subtitle": "WorkTalk is the comprehensive solution to find the best experts for your Iraqi home needs",
+    "customer": {
+      "title": "How does the customer application work?",
+      "description": "This application is intended for people who need a service. They log in and write down the problems or service they need. If the requested service matches the service provided by a nearby service provider, the provider is notified."
+    },
+    "provider": {
+      "title": "How does the expert (craftsman) application work?",
+      "description": "This program is intended for people or companies wishing to provide services. They register, choose their location, and list the services they offer. They also give a little description about themselves and upload photos of their work. This helps customers understand what they do and the quality of their work."
+    }
+  },
+  "mission": {
+    "title": "Top Home Services and Repairs Platform In Iraq",
+    "subtitle": "We ultimately aim to simplify your life by providing exceptional services, giving you the opportunity to receive multiple quotes to compare, read reviews, and contact professionals directly, thereby making the process of hiring service providers transparent, efficient, and seamless.",
+    "sections": [
+      {
+        "title": "Mission",
+        "subtitle": "Redefine Home & Professional Services",
+        "content": "Our mission is to redefine the home & property services, repairs, and maintenance industry in Iraq by providing unparalleled convenience, reliability, and trust. We strive to enhance the lives of our customers by offering top-quality services and creating a positive impact on the local economy through job creation and empowerment."
+      },
+      {
+        "title": "Vision",
+        "subtitle": "Setting the Industry Standard for Excellence",
+        "content": "Our vision is to become an incomparable platform for all home repairs & professional services in Iraq, setting the industry standard for excellence, innovation, and customer satisfaction. We aim to build long-lasting relationships with our customers and service providers, fostering a trusted community that thrives on quality, efficiency, and mutual success."
+      },
+      {
+        "title": "Message",
+        "subtitle": "Life Becomes Easier.",
+        "content": "Life Becomes Easier. That's our promise to you. We're dedicated to simplifying life for Iraqis, whether to get jobs done perfectly or to find jobs."
+      }
+    ]
+  },
+  "appDownload": {
+    "title": "Download Our Apps",
+    "subtitle": "Get WorkTok on your mobile device for seamless service booking",
+    "customerApp": {
+      "title": "For Customers",
+      "description": "Find and book trusted service providers near you with just a few taps"
+    },
+    "providerApp": {
+      "title": "For Service Providers",
+      "description": "Join our network and grow your business by connecting with customers"
+    },
+    "downloadText": "Available on both platforms"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our platform",
+    "moreButton": "Show More",
+    "lessButton": "Show Less",
+    "questions": [
+      {
+        "question": "How do I find service providers in my area?",
+        "answer": "Simply enter your location and the type of service you need in our search bar. Our platform will show you verified providers near you with ratings and reviews."
+      },
+      {
+        "question": "Are all service providers verified?",
+        "answer": "Yes, all service providers go through a verification process including background checks, license verification, and quality assessments before joining our platform."
+      },
+      {
+        "question": "How do I pay for services?",
+        "answer": "You can pay through our secure platform using credit cards, debit cards, or cash on delivery. All payments are processed securely through our system."
+      },
+      {
+        "question": "What if I'm not satisfied with the service?",
+        "answer": "We have a customer satisfaction guarantee. If you're not happy with the service, contact our support team within 24 hours and we'll work to resolve the issue."
+      },
+      {
+        "question": "How do I become a service provider?",
+        "answer": "Download our provider app, complete the registration process, submit required documents for verification, and once approved, you can start accepting bookings."
+      },
+      {
+        "question": "What areas do you cover in Iraq?",
+        "answer": "We currently operate in major Iraqi cities including Baghdad, Basra, Erbil, Mosul, and Najaf, with plans to expand to more cities soon."
+      },
+      {
+        "question": "How do I cancel or reschedule a booking?",
+        "answer": "You can cancel or reschedule bookings through the app up to 2 hours before the scheduled time. Some providers may have different cancellation policies."
+      },
+      {
+        "question": "Is there a minimum service charge?",
+        "answer": "Service charges vary by provider and service type. Each provider sets their own rates, which are displayed upfront before you book."
+      },
+      {
+        "question": "How do I contact customer support?",
+        "answer": "You can reach our customer support through the app's help section, email us at support@worktok.org, or call our helpline at (+964) 7856075950."
+      },
+      {
+        "question": "Do you offer emergency services?",
+        "answer": "Yes, we have emergency service providers available 24/7 for urgent repairs like plumbing leaks, electrical issues, and lock-outs."
+      }
+    ]
+  },
+  "inquiry": {
+    "title": "Have a Question?",
+    "subtitle": "Get in touch with us for any inquiries or support",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "mobile": "Mobile Number",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Inquiry",
+      "namePlaceholder": "Enter your full name",
+      "emailPlaceholder": "Enter your email address",
+      "mobilePlaceholder": "Enter your mobile number",
+      "subjectPlaceholder": "Enter subject",
+      "messagePlaceholder": "Enter your message here..."
+    }
+  },
+  "joinUs": {
+    "title": "Ready to Get Started?",
+    "subTitle": "Join thousands of satisfied customers who trust our platform for their service needs.",
+    "browse_services": "Browse Services",
+    "find_professionals": "Find Professionals"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account",
+      "email": "Email Address",
+      "password": "Password",
+      "submit": "Sign In",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join WorkTok today",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "phone": "Phone Number",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign In"
+    },
+    "forgotPassword": {
+      "title": "Reset Password",
+      "subtitle": "Enter your email to receive reset instructions",
+      "email": "Email Address",
+      "submit": "Send Reset Link",
+      "backToLogin": "Back to Sign In"
+    },
+    "resetPassword": {
+      "title": "New Password",
+      "subtitle": "Enter your new password",
+      "password": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "submit": "Reset Password"
+    },
+    "otpVerify": {
+      "title": "Verify Account",
+      "subtitle": "Enter the verification code sent to your email",
+      "code": "Verification Code",
+      "submit": "Verify",
+      "resend": "Resend Code"
+    }
+  },
+  "footer": {
+    "title": "Iraqi House Services",
+    "description": "Iraq's leading platform for connecting homeowners with trusted service professionals. Quality service, guaranteed trust.",
+    "services": [
+      {
+        "title": "Platform",
+        "items": [
+          {
+            "label": "How it Works",
+            "href": "/services"
+          },
+          {
+            "label": "Browse Services",
+            "href": "/services"
+          },
+          {
+            "label": "Service Areas",
+            "href": "/about"
+          },
+          {
+            "label": "Pricing",
+            "href": "/services"
+          },
+          {
+            "label": "Mobile App",
+            "href": "#download"
+          }
+        ]
+      },
+      {
+        "title": "Customer",
+        "items": [
+          {
+            "label": "Book a Service",
+            "href": "/services"
+          },
+          {
+            "label": "Help Center",
+            "href": "/contact"
+          },
+          {
+            "label": "FAQ",
+            "href": "#faq"
+          },
+          {
+            "label": "Customer Support",
+            "href": "/contact"
+          },
+          {
+            "label": "Safety Guidelines",
+            "href": "/privacy"
+          }
+        ]
+      },
+      {
+        "title": "Provider",
+        "items": [
+          {
+            "label": "Join as Provider",
+            "href": "/providers"
+          },
+          {
+            "label": "Provider Dashboard",
+            "href": "/providers"
+          },
+          {
+            "label": "Resources",
+            "href": "/about"
+          },
+          {
+            "label": "Training",
+            "href": "/about"
+          },
+          {
+            "label": "Provider Support",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social_links": "Social Links",
+    "company": {
+      "title": "Company",
+      "items": [
+        "الأسئلة الشائعه",
+        "سياسة الخصوصية",
+        "Privacy Policy",
+        "تواصل معنا"
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "phone": "+964 7856075950",
+      "emailTitle": "Email",
+      "email": "admin@worktok.org",
+      "locationTitle": "Location",
+      "location": "Baghdad, Iraq"
+    },
+    "copyright": "© 2025 WorkTok. All Rights Reserved",
+    "privacy_policy": "Privacy Policy",
+    "contact_us": "Contact Us"
+  },
+  "aboutUs": {
+    "title": "About WorkTok",
+    "subTitle": "Connecting Iraq's finest service professionals with customers who need quality work done right",
+    "badge": "Trusted by thousands across Iraq",
+    "stats": {
+      "happy_customers": "Happy Customers",
+      "verified_professionals": "Verified Professionals",
+      "service_categories": "Service Categories",
+      "customer_support": "Customer Support"
+    },
+    "ourStory": {
+      "title": "Our Story",
+      "items": [
+        "Founded in 2020, WorkTok emerged from a simple observation: Iraq needed a reliable way to connect skilled professionals with customers seeking quality services.",
+        "What started as a small team's vision has grown into Iraq's most trusted service marketplace, serving thousands of customers and supporting hundreds of local professionals.",
+        "Today, we're proud to be part of Iraq's digital transformation, creating opportunities and building trust in every interaction."
+      ]
+    },
+    "ourValue": {
+      "title": "Our Values",
+      "subTitle": "The principles that guide everything we do",
+      "quality": {
+        "title": "Quality Assurance",
+        "description": "We ensure all service providers meet our high standards through rigorous verification processes."
+      },
+      "customer_satisfaction": {
+        "title": "Customer Satisfaction",
+        "description": "Your satisfaction is our priority. We work tirelessly to exceed your expectations."
+      },
+      "trust": {
+        "title": "Trust & Reliability",
+        "description": "Building lasting relationships through transparent communication and reliable service delivery."
+      },
+      "community": {
+        "title": "Community Impact",
+        "description": "Supporting local professionals and contributing to Iraq's growing service economy."
+      }
+    },
+    "leaderTeam": {
+      "title": "Leadership Team",
+      "subTitle": "Meet the passionate individuals driving WorkTok's mission forward"
+    },
+    "ourMission": {
+      "title": "Our Mission",
+      "subTitle": "To empower Iraq's service economy by creating meaningful connections between skilled professionals and customers, fostering trust, quality, and economic growth in every community we serve."
+    }
+  },
+  "providerDetails": {
+    "notFound": "Provider Not Found",
+    "notFound_description": "The service provider you're looking for doesn't exist.",
+    "back_provider": "Back to Providers",
+    "reviews": "Reviews",
+    "verified": "VERIFIED",
+    "experience": "years experience",
+    "specialties": "Specialties",
+    "contact": "Contact Now",
+    "customer_reviews": "Customer Reviews",
+    "no_reviews": "No reviews yet. Be the first to review this provider!"
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "subTitle": "Have questions? We're here to help! Reach out to our dedicated support team",
+    "info": {
+      "phone": {
+        "title": "Phone Support",
+        "value": "+964 7856075950",
+        "description": "Available 24/7 for urgent inquiries"
+      },
+      "email": {
+        "title": "Email Support",
+        "value": "admin@worktok.org",
+        "description": "Response within 2-4 hours"
+      },
+      "address": {
+        "title": "Head Office",
+        "value": "Baghdad, Iraq",
+        "description": "Al-Karrada District, Building 45"
+      },
+      "workingHours": {
+        "title": "Business Hours",
+        "value": "24/7 Support",
+        "description": "Sunday to Thursday: 8AM - 8PM"
+      }
+    },
+    "form": {
+      "sendMessage": "Send us a Message",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "mobile": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "namePlaceholder": "Your full name",
+      "emailPlaceholder": "your.email@example.com",
+      "mobilePlaceholder": "+964 7856075950",
+      "subjectPlaceholder": "Brief description of your inquiry",
+      "messagePlaceholder": "Please provide details about your inquiry..."
+    },
+    "map": {
+      "title": "Our Location",
+      "address": "Baghdad, Al-Karrada District, Iraq",
+      "subAddress": "Building 45, Floor 3",
+      "clickOn": "Click to open in Maps"
+    },
+    "quickSupport": {
+      "title": "Need Immediate Help?",
+      "subTitle": "For urgent matters, our support team is available 24/7 via phone or live chat.",
+      "phone": "Call Now: +964 7856075950"
+    },
+    "responseType": {
+      "title": "Our Response Commitment",
+      "chat": {
+        "title": "Live Chat",
+        "description": "Instant response during business hours"
+      },
+      "mail": {
+        "title": "Email",
+        "description": "Response within 2-4 hours"
+      },
+      "phone": {
+        "title": "Phone",
+        "description": "24/7 availability for urgent matters"
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "subTitle": "Your privacy and data security are our top priorities. Learn how we protect and handle your information.",
+    "date": "Last updated",
+    "commitment": {
+      "title": "Our Commitment to Your Privacy",
+      "description_1": "At WorkTok, we understand that your personal information is valuable and deserves protection. This Privacy Policy explains how we collect, use, share, and protect your information when you use our platform to connect with service providers across Iraq.",
+      "description_2": "By using our services, you agree to the collection and use of information in accordance with this policy. We are committed to transparency and will notify you of any significant changes to our privacy practices."
+    },
+    "questions": {
+      "title": "Questions About Your Privacy?",
+      "subTitle": "If you have any questions about this Privacy Policy or how we handle your data, please don't hesitate to contact us.",
+      "email-1": {
+        "title": "Email Us",
+        "value": "privacy@worktok.org"
+      },
+      "email-2": {
+        "title": "Data Protection Officer",
+        "value": "dpo@worktok.org"
+      }
+    },
+    "legalCompliance": {
+      "title": "Legal Compliance",
+      "description": "This privacy policy complies with applicable Iraqi data protection laws and international best practices. WorkTok is committed to protecting your privacy rights and maintaining the highest standards of data security."
+    },
+    "polices": [
+      {
+        "icon": "FileText",
+        "title": "Information We Collect",
+        "content": [
+          "Personal information you provide when registering (name, email, phone number)",
+          "Professional information for service providers (qualifications, experience, certifications)",
+          "Transaction and payment information for completed services",
+          "Usage data and analytics to improve our platform",
+          "Device information and IP addresses for security purposes"
+        ]
+      },
+      {
+        "icon": "Eye",
+        "title": "How We Use Your Information",
+        "content": [
+          "To connect customers with qualified service providers",
+          "To process payments and maintain transaction records",
+          "To verify service provider credentials and maintain quality standards",
+          "To provide customer support and resolve disputes",
+          "To send important updates about our services and policies",
+          "To improve our platform through analytics and user feedback"
+        ]
+      },
+      {
+        "icon": "UserCheck",
+        "title": "Information Sharing",
+        "content": [
+          "We share contact information between customers and service providers for completed bookings",
+          "We may share aggregated, non-personal data for business analytics",
+          "We comply with legal requests from authorized government agencies",
+          "We work with trusted payment processors to handle transactions securely",
+          "We never sell your personal information to third parties for marketing purposes"
+        ]
+      },
+      {
+        "icon": "Lock",
+        "title": "Data Security",
+        "content": [
+          "All data is encrypted in transit and at rest using industry-standard protocols",
+          "Payment information is processed through PCI-compliant payment processors",
+          "Access to personal data is restricted to authorized personnel only",
+          "Regular security audits and monitoring to detect potential threats",
+          "Secure data centers with physical and digital access controls"
+        ]
+      },
+      {
+        "icon": "Shield",
+        "title": "Your Rights",
+        "content": [
+          "Access and review your personal information at any time",
+          "Request corrections to inaccurate or incomplete data",
+          "Delete your account and associated data (subject to legal requirements)",
+          "Opt out of non-essential communications and marketing",
+          "Request a copy of your data in a portable format",
+          "File complaints with relevant data protection authorities"
+        ]
+      },
+      {
+        "icon": "AlertCircle",
+        "title": "Data Retention",
+        "content": [
+          "Account information is retained while your account is active",
+          "Transaction records are kept for 7 years for legal and accounting purposes",
+          "Support communications are retained for 2 years",
+          "Analytics data is anonymized and may be retained indefinitely",
+          "Deleted accounts are permanently removed within 30 days of deletion request"
+        ]
+      }
+    ]
+  },
+  "noPageFound": {
+    "title": "404 Page Not Found",
+    "description": "Did you forget to add the page to the router?"
+  }
+}

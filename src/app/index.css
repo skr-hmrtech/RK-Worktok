@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss/preflight";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+:root {
+    --worktok-primary: #4caf50;
+    --worktok-secondary: #66bb6a;
+    --worktok-dark: #2e7d32;
+    --iraq-green: #4caf50;
+    --iraq-red: #dc2626;
+    --iraq-black: #000000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom gradient classes */
+.gradient-primary {
+    background: linear-gradient(135deg, #4caf50 0%, #66bb6a 100%);
+}
+
+.gradient-primary-hover {
+    background: linear-gradient(135deg, #43a047 0%, #5cb85c 100%);
+}
+
+.gradient-secondary {
+    background: linear-gradient(135deg, #66bb6a 0%, #81c784 100%);
+}
+
+.text-gradient-primary {
+    background: linear-gradient(135deg, #4caf50 0%, #66bb6a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Responsive utilities */
+.container-responsive {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Animation classes */
+.animate-fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+.animate-slide-up {
+    animation: slideUp 0.6s ease-out;
+}
+
+.animate-slide-down {
+    animation: slideDown 0.6s ease-out;
+}
+
+.animate-scale-in {
+    animation: scaleIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Improved responsive breakpoints */
+@media (max-width: 640px) {
+    .mobile-responsive {
+        padding: 1rem;
+    }
+
+    .mobile-text-lg {
+        font-size: 1.125rem;
+    }
+
+    .mobile-text-xl {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .tablet-responsive {
+        padding: 1.5rem;
+    }
+}
+
+/* Custom button styles with primary color */
+.btn-primary {
+    @apply bg-gradient-to-r from-[#4caf50] to-green-600 hover:from-green-600 hover:to-green-700 text-white font-medium px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300;
+}
+
+.btn-secondary {
+    @apply bg-gradient-to-r from-gray-100 to-gray-200 hover:from-gray-200 hover:to-gray-300 text-gray-700 font-medium px-6 py-3 rounded-lg border border-gray-300 hover:border-gray-400 transition-all duration-300;
+}
+
+/* Card hover effects */
+.card-hover {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-xl;
+}
+
+/* Provider card improvements */
+.provider-card {
+    @apply bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300;
+}
+
+/* Service category card improvements */
+.service-category-card {
+    @apply bg-white rounded-xl shadow-md border border-gray-200 overflow-hidden hover:shadow-lg hover:scale-105 transition-all duration-300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.worktok-gradient {
+    background: linear-gradient(135deg, var(--worktok-gradient-start) 0%, var(--worktok-gradient-end) 100%);
+}
+
+.worktok-gradient-reverse {
+    background: linear-gradient(135deg, var(--worktok-gradient-end) 0%, var(--worktok-gradient-start) 100%);
+}
+
+.text-worktok-primary {
+    color: var(--worktok-primary);
+}
+
+.bg-worktok-primary {
+    background-color: var(--worktok-primary);
+}
+
+.bg-worktok-secondary {
+    background-color: var(--worktok-secondary);
+}
+
+.bg-worktok-dark {
+    background-color: var(--worktok-dark);
+}
+
+.border-worktok-primary {
+    border-color: var(--worktok-primary);
+}
+
+.hover\:bg-worktok-primary:hover {
+    background-color: var(--worktok-primary);
+}
+
+.hover\:text-worktok-primary:hover {
+    color: var(--worktok-primary);
+}
+
+/* Custom animations */
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-slide-left {
+    animation: slideInLeft 0.6s ease-out forwards;
+}
+
+.animate-slide-right {
+    animation: slideInRight 0.6s ease-out forwards;
+}
+
+.animate-scale-in {
+    animation: scaleIn 0.6s ease-out forwards;
+}
+
+/* Responsive typography */
+.responsive-text-xs {
+    font-size: 0.75rem;
+}
+
+.responsive-text-sm {
+    font-size: 0.875rem;
+}
+
+.responsive-text-base {
+    font-size: 1rem;
+}
+
+.responsive-text-lg {
+    font-size: 1.125rem;
+}
+
+.responsive-text-xl {
+    font-size: 1.25rem;
+}
+
+.responsive-text-2xl {
+    font-size: 1.5rem;
+}
+
+.responsive-text-3xl {
+    font-size: 1.875rem;
+}
+
+.responsive-text-4xl {
+    font-size: 2.25rem;
+}
+
+.responsive-text-5xl {
+    font-size: 3rem;
+}
+
+@media (min-width: 640px) {
+    .responsive-text-xs {
+        font-size: 0.875rem;
+    }
+
+    .responsive-text-sm {
+        font-size: 1rem;
+    }
+
+    .responsive-text-base {
+        font-size: 1.125rem;
+    }
+
+    .responsive-text-lg {
+        font-size: 1.25rem;
+    }
+
+    .responsive-text-xl {
+        font-size: 1.5rem;
+    }
+
+    .responsive-text-2xl {
+        font-size: 1.875rem;
+    }
+
+    .responsive-text-3xl {
+        font-size: 2.25rem;
+    }
+
+    .responsive-text-4xl {
+        font-size: 3rem;
+    }
+
+    .responsive-text-5xl {
+        font-size: 3.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .responsive-text-xs {
+        font-size: 1rem;
+    }
+
+    .responsive-text-sm {
+        font-size: 1.125rem;
+    }
+
+    .responsive-text-base {
+        font-size: 1.25rem;
+    }
+
+    .responsive-text-lg {
+        font-size: 1.5rem;
+    }
+
+    .responsive-text-xl {
+        font-size: 1.875rem;
+    }
+
+    .responsive-text-2xl {
+        font-size: 2.25rem;
+    }
+
+    .responsive-text-3xl {
+        font-size: 3rem;
+    }
+
+    .responsive-text-4xl {
+        font-size: 3.75rem;
+    }
+
+    .responsive-text-5xl {
+        font-size: 4.5rem;
+    }
+}
+
+/* Button gradients */
+.btn-gradient {
+    background: linear-gradient(135deg, var(--worktok-primary) 0%, var(--worktok-primary-light) 100%);
+    transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(135deg, var(--worktok-primary-dark) 0%, var(--worktok-primary) 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(76, 175, 80, 0.3);
+}
+
+/* Card hover effects */
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--worktok-primary);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--worktok-primary-dark);
+}
+
+/* Mobile responsive improvements */
+@media (max-width: 768px) {
+    .mobile-padding {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .mobile-text-center {
+        text-align: center;
+    }
+}
+
+/* Fix dropdown z-index issues */
+.dropdown-content {
+    z-index: 9999 !important;
+}
+
+[data-radix-select-content] {
+    z-index: 9999 !important;
+}
+
+[data-radix-dropdown-content] {
+    z-index: 9999 !important;
+}
+
+/* Ensure modals are above everything */
+[data-radix-dialog-overlay] {
+    z-index: 10000 !important;
+}
+
+[data-radix-dialog-content] {
+    z-index: 10001 !important;
+}
+
+/* Fix select trigger appearance */
+[data-radix-select-trigger] {
+    min-width: 120px;
+}
+
+/* Improve form inputs */
+.form-input {
+    transition: all 0.3s ease;
+}
+
+.form-input:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+}
+
+/* RTL Support */
+[dir="rtl"] {
+    text-align: right;
+}
+
+[dir="rtl"] .flex {
+    flex-direction: row-reverse;
+}
+
+/* Gradient backgrounds */
+.hero-gradient {
+    background: linear-gradient(135deg, #4caf50 0%, #66bb6a 50%, #81c784 100%);
+}
+
+.section-gradient {
+    background: linear-gradient(135deg, #f1f8e9 0%, #e8f5e8 100%);
+}
+
+/* Loading animation */
+.loading-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .5;
+    }
+}
